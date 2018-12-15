@@ -44,7 +44,7 @@ void loop() {
     Serial << "Valeur CAN = " << valeurCAN << "\n";
 
     float u = valeurCAN * 5.0 / 1023.0;
-    Serial << "    Tension = " << u*1000 << " mV\n";
+    Serial << "    Tension = " << u << " V\n";
 
     Serial << " valeur mesuree = " << f(u) << " ???\n";
 }
