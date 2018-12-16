@@ -4,8 +4,8 @@ Documents et programmes du TP Convertisseur Analogique Numérique
 ## --- Programmes du TP -----------------------------
 
 ADC_validation_montage
--Pour valider le montage Arduino+Capteur+Buzzer  
--*-> Programmation en C Arduino*
+- Pour valider le montage Arduino+Capteur+Buzzer  
+- *-> Programmation en C Arduino*
    
   
 ADC_programmation
