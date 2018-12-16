@@ -1,7 +1,8 @@
 # CAN_ATmega328
-Documents et programmes du TP Convertisseur Analogique Numérique
+Documents et programmes du TP Convertisseur Analogique NumÃ©rique
 
---- Programmes du TP -----------------------------
+#--- Programmes du TP -----------------------------
+
 ADC_validation_montage
    Pour valider le montage Arduino+Capteur+Buzzer
    -> Programmation en C Arduino
@@ -11,25 +12,26 @@ ADC_programmation
    -> Programmation des registres du convertisseur
    
 ADC_fonction_de_transfert_resistance
-   Programme détaillé permettant de calculer la tension lue en sortie d'un pont diviseur.
-   -> Programmation détaillée des registres du convertisseur
+   Programme dÃ©taillÃ© permettant de calculer la tension lue en sortie d'un pont diviseur.
+   -> Programmation dÃ©taillÃ©e des registres du convertisseur
    
 ADC_fonction_de_transfert_general
-   Fonction de transfert simple qui associe tension mesurée et résistance du capteur   
+   Fonction de transfert simple qui associe tension mesurÃ©e et rÃ©sistance du capteur   
    
---- Exemples --------------------------------------
+#--- Exemples --------------------------------------
+
 ADC_internal_temperature
-   Pour afficher la température interne de l'ATmega
+   Pour afficher la tempÃ©rature interne de l'ATmega
    -> Programmation des registres du convertisseur
   
 ADC_mesure_resistance_pullup
-   Pour déterminer la valeur précise de la résistance interne de tirage sur les entrées analogiques
+   Pour dÃ©terminer la valeur prÃ©cise de la rÃ©sistance interne de tirage sur les entrÃ©es analogiques
    -> Programmation en C Arduino
 
 ADC_courbe_capteur
-   Utiliser le traceur série
+   Utiliser le traceur sÃ©rie
    -> Programmation en C Arduino
 
 ADC_fonction_de_transfert_alarme
-   Exemple qui active le buzzer sur dépassement d'un seuil   
+   Exemple qui active le buzzer sur dÃ©passement d'un seuil   
    
