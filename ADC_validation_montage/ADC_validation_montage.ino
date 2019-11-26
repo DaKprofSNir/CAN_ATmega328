@@ -2,7 +2,7 @@
  * 
  *  TP sur le C.A.N. de l'ATmega328
  *  
- *  Connectez un buzzer actif. Broche + dur 11 et broche - sur GND
+ *  Connectez un buzzer actif. Broche + sur 11 et broche - sur GND
  *  
  *  Connectez un capteur analogique entre les broches GND et A0
  *  
@@ -17,6 +17,6 @@ void setup(){
 }
 
 void loop(){
-    digitalWrite(11,HIGH); delay(5); digitalWrite(11,LOW); delay(500); // beep
+    digitalWrite(11,HIGH); delay(5); digitalWrite(11,LOW); delay(995); // beep
     Serial.println( analogRead(A0) ); // lecture C.A.N. et affichage
 }

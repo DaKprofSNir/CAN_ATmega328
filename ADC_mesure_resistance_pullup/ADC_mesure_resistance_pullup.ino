@@ -5,10 +5,10 @@
  *    Mesure de la resistance de pullup d'une entree analogique
  *  
  *  MONTAGE :
- *  placez une resistance connue entre GND et 
+ *  placez une resistance connue (10 Kohm) entre GND et 
  *  l'entree Analogique a mesurer
  *  
- *  Modifiez les valeurs d'initialisation
+ *  Vous pouvez eventuellement modifiez les valeurs d'initialisation
  *  en fonction de la resistance utilisee (ligne 21)
  *  et de l'entree a tester (ligne 22)
  *
